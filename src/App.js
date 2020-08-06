@@ -1,26 +1,48 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import { Menu } from "antd";
+import {
+  MailOutlined,
+  AppstoreOutlined,
+  SettingOutlined,
+} from "@ant-design/icons";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.1
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const { SubMenu } = Menu;
+
+export default class App extends React.Component {
+  state = {
+    current: "mail",
+  };
+
+  handleClick = (e) => {
+    console.log("click ", e);
+    this.setState({ current: e.key });
+  };
+
+  render() {
+    const { current } = this.state;
+    return (
+      <Menu
+        onClick={this.handleClick}
+        selectedKeys={[current]}
+        mode="horizontal"
+        style={{ textAlign: "center" }}
+      >
+        <Menu.Item key="mail" icon={<MailOutlined />}>
+          Navigation One
+        </Menu.Item>
+        <Menu.Item key="app" icon={<AppstoreOutlined />}>
+          Navigation Two
+        </Menu.Item>
+        <Menu.Item key="alipay">
+          <a
+            href="https://ant.design"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Navigation Four - Link
+          </a>
+        </Menu.Item>
+      </Menu>
+    );
+  }
 }
-
-export default App;
