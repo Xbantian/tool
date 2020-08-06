@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <!--
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		<meta name="description" content="Web site created using create-react-app" />
+		<!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+		<!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -22,45 +19,50 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>您的工具地址</title>
+		<title>您的工具地址</title>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.production.min.js"
-      integrity="sha512-SUJujhtUWZUlwsABaZNnTFRlvCu7XGBZBL1VF33qRvvgNk3pBS9E353kcag4JAv05/nsB9sanSXFbdHAUW9+lg=="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.1/umd/react-dom.production.min.js"
-      integrity="sha512-SYsXmAblZhruCNUVmTp5/v2a1Fnoia06iJh3+L9B9wUaqpRVjcNBQsqAglQG9b5+IaVCfLDH5+vW923JL5epZA=="
-      crossorigin="anonymous"
-    ></script>
-    <!-- <script src="https://cdn.bootcss.com/babel-standalone/6.26.0/babel.min.js"></script> -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
-      integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg=="
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/antd/4.5.2/antd.min.css"
-      integrity="sha512-3w6Dnr9oqweHnMzLxXRdLWpmgf3PSMqob+BZWqnyhXtrs7ibtqdxZEAT5PTKw4D+eXm+5FUm8SpS/PlxLVncWw=="
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/antd/4.5.2/antd.min.js"
-      integrity="sha512-rejKNNusIsiYjEA/esyOjxmun+rzUO0/veO0FZbaQt8ls78w/hh34dLVo7xhzkWNd81xdR3si0LHg6cxO1p3zQ=="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/ant-design-icons/4.2.2/index.umd.min.js"
-      integrity="sha512-3MzbAUw5i4PzacRE07VO6f5o/3NWiAM4rJInn1DbMKVWqXfdo2oRK4OIBMxcRDUnFQPisK6eN2QDRKRe92wCwA=="
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.production.min.js"
+			integrity="sha512-SUJujhtUWZUlwsABaZNnTFRlvCu7XGBZBL1VF33qRvvgNk3pBS9E353kcag4JAv05/nsB9sanSXFbdHAUW9+lg=="
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.1/umd/react-dom.production.min.js"
+			integrity="sha512-SYsXmAblZhruCNUVmTp5/v2a1Fnoia06iJh3+L9B9wUaqpRVjcNBQsqAglQG9b5+IaVCfLDH5+vW923JL5epZA=="
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/react-router/5.2.0/react-router.min.js"
+			integrity="sha512-sWGrnSIvNDdGRsqnFIm5q1uHjPt5912wNVBK9vChpbHPReP96giWBGeztcd/rva+n82nQLTJ1SFbZqLHbCqMiw=="
+			crossorigin="anonymous"
+		></script>
+		<!-- <script src="https://cdn.bootcss.com/babel-standalone/6.26.0/babel.min.js"></script> -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+			integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg=="
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/antd/4.5.2/antd.min.css"
+			integrity="sha512-3w6Dnr9oqweHnMzLxXRdLWpmgf3PSMqob+BZWqnyhXtrs7ibtqdxZEAT5PTKw4D+eXm+5FUm8SpS/PlxLVncWw=="
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/antd/4.5.2/antd.min.js"
+			integrity="sha512-rejKNNusIsiYjEA/esyOjxmun+rzUO0/veO0FZbaQt8ls78w/hh34dLVo7xhzkWNd81xdR3si0LHg6cxO1p3zQ=="
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/ant-design-icons/4.2.2/index.umd.min.js"
+			integrity="sha512-3MzbAUw5i4PzacRE07VO6f5o/3NWiAM4rJInn1DbMKVWqXfdo2oRK4OIBMxcRDUnFQPisK6eN2QDRKRe92wCwA=="
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="root"></div>
+		<!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -69,6 +71,5 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+    --></body>
 </html>
