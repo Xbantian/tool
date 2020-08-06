@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.537ec48c.chunk.js",
-    "main.js.map": "/static/js/main.537ec48c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cf744595.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cf744595.js.map",
-    "static/js/2.c86ce7ab.chunk.js": "/static/js/2.c86ce7ab.chunk.js",
-    "static/js/2.c86ce7ab.chunk.js.map": "/static/js/2.c86ce7ab.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ea86eb47c600b0e849e407fcc6eefac6.js": "/precache-manifest.ea86eb47c600b0e849e407fcc6eefac6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.c86ce7ab.chunk.js.LICENSE.txt": "/static/js/2.c86ce7ab.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "https://xbantian.github.io/tool/static/css/main.5f361e03.chunk.css",
+    "main.js": "https://xbantian.github.io/tool/static/js/main.257df15e.chunk.js",
+    "main.js.map": "https://xbantian.github.io/tool/static/js/main.257df15e.chunk.js.map",
+    "runtime-main.js": "https://xbantian.github.io/tool/static/js/runtime-main.c8d38b2d.js",
+    "runtime-main.js.map": "https://xbantian.github.io/tool/static/js/runtime-main.c8d38b2d.js.map",
+    "static/js/2.c86ce7ab.chunk.js": "https://xbantian.github.io/tool/static/js/2.c86ce7ab.chunk.js",
+    "static/js/2.c86ce7ab.chunk.js.map": "https://xbantian.github.io/tool/static/js/2.c86ce7ab.chunk.js.map",
+    "index.html": "https://xbantian.github.io/tool/index.html",
+    "precache-manifest.a3251d4a7aa45f7b5a1f046f0d4527d3.js": "https://xbantian.github.io/tool/precache-manifest.a3251d4a7aa45f7b5a1f046f0d4527d3.js",
+    "service-worker.js": "https://xbantian.github.io/tool/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "https://xbantian.github.io/tool/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.c86ce7ab.chunk.js.LICENSE.txt": "https://xbantian.github.io/tool/static/js/2.c86ce7ab.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "https://xbantian.github.io/tool/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cf744595.js",
+    "static/js/runtime-main.c8d38b2d.js",
     "static/js/2.c86ce7ab.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.537ec48c.chunk.js"
+    "static/js/main.257df15e.chunk.js"
   ]
 }
