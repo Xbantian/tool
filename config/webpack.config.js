@@ -670,6 +670,7 @@ module.exports = function (webpackEnv) {
       moment: "moment",
       React: "React",
       "react-dom": "ReactDOM",
+      "@ant-design/icons": "icons",
     },
   };
 };
