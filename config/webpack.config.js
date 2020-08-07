@@ -632,7 +632,7 @@ module.exports = function (webpackEnv) {
     externals: {
       antd: 'antd',
       moment: 'moment',
-      React: 'React',
+      react: 'React',
       'react-dom': 'ReactDOM',
       '@ant-design/icons': 'icons',
       'react-router-dom': 'ReactRouterDOM',
