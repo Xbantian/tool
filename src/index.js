@@ -1,8 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+import App from './router'
 // import * as serviceWorker from './serviceWorker'
 
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <div>123</div>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// )
 ReactDOM.render(
   <React.StrictMode>
     <App />

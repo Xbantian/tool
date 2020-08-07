@@ -1,7 +1,7 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Link, useRouteMatch, useParams, Redirect } from 'react-router-dom'
-import StringUtil from './views/string-util'
-import Layout from './views/layout'
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+import StringUtil from 'src/views/string-util'
+import Layout from 'src/views/layout/index'
 
 export default function App() {
   return (
