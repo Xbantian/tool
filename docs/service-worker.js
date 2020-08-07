@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://xbantian.github.io/tool/precache-manifest.a3251d4a7aa45f7b5a1f046f0d4527d3.js"
+  "https://xbantian.github.io/tool/precache-manifest.1dac0f8f293d06b585e6b0e9b3635614.js"
 );
 
 self.addEventListener('message', (event) => {
