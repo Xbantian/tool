@@ -637,6 +637,7 @@ module.exports = function (webpackEnv) {
       'react-dom': 'ReactDOM',
       '@ant-design/icons': 'icons',
       'react-router-dom': 'ReactRouterDOM',
+      _: '_',
     },
   }
 }
