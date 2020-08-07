@@ -1,8 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
-import StringUtil from 'src/views/string-util'
-import Layout from 'src/views/layout/index'
-
+import StringUtil from 'src/views/string-util/index.js'
+import Layout from 'src/views/layout/index.js'
 export default function App() {
   return (
     <Router>
