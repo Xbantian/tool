@@ -3,13 +3,17 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 import StringUtil from 'src/views/string-util/index.js'
 import Layout from 'src/views/layout/index.js'
 import Audit from 'src/views/audit/index.js'
+import Welcome from 'src/views/welcome/index.js'
 export default function App() {
   return (
     <Router>
       <Layout>
         <Switch>
-          <Route path="/home">
+          <Route path="/index">
             <Welcome />
+          </Route>
+          <Route path="/home">
+            <Home />
           </Route>
           <Route path="/audit">
             <Audit />
@@ -17,13 +21,13 @@ export default function App() {
           <Route path="/string">
             <StringUtil />
           </Route>
-          <Redirect to="/home" />
+          <Redirect to="/index" />
         </Switch>
       </Layout>
     </Router>
   )
 }
 
-function Welcome() {
+function Home() {
   return <h2>Welcome</h2>
 }
